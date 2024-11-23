@@ -6,12 +6,15 @@ import Navbar from "./layout/Navbar";
 import Carousel from "./layout/Carousel";
 import { Slider } from "./layout/Slider";
 import { ProductSlider } from "./layout/ProductSlider";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { SignIn } from "./page/SignIn";
 import Home from "./page/Home";
 import { Footer } from "./layout/Footer";
+import Dashboard from "./page/Dashboard";
+import Breadcrumbs from "./layout/Breadcrumb";
 
 function App() {
+  const location = useLocation();
   return (
     <>
       {/* <Head /> */}
@@ -20,9 +23,11 @@ function App() {
       {/* <Carousel />
       <Slider />
       <ProductSlider /> */}
+      <Breadcrumbs />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </>

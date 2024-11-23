@@ -26,15 +26,16 @@ export function Slider() {
       orientation="vertical"
       className="w-full "
     >
-      <CarouselPrevious />
-      <CarouselNext />
-      <CarouselContent className="mt-1 h-[350px]">
+      <div className="absolute flex right-4 z-10">
+        <CarouselPrevious />
+        <CarouselNext />
+      </div>
+      <CarouselContent className="mt-1 h-[80vh]">
         {imageUrls.map((url, index) => (
           <CarouselItem key={index} className="pt-1 md:basis-1/2">
             <div className="p-1 relative">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  {/* Display the image */}
                   <img
                     src={url}
                     alt={`Carousel Item ${index + 1}`}

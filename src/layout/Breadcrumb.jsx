@@ -8,6 +8,10 @@ const Breadcrumbs = () => {
   // Split the current path into parts
   const pathnames = location.pathname.split("/").filter((x) => x);
   console.log(pathnames);
+
+  if (location.pathname === "/") {
+    return null;
+  }
   return (
     <nav
       aria-label="Breadcrumb"

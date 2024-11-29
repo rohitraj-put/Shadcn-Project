@@ -13,7 +13,7 @@ function ProductDetails() {
           Standout Curated Gift Boxes. Stress-Free Experience.
         </p>
       </div>
-      <div className="relative w-full min-h-screen flex flex-wrap gap-12 items-center cursor-pointer justify-center my-8 p-4">
+      <div className="w-full min-h-screen flex flex-wrap gap-4 items-center cursor-pointer justify-center my-8">
         {Data.map((item, index) => (
           <Product item={item} index={index} />
         ))}

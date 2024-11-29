@@ -6,7 +6,7 @@ export default function Product({ item, index }) {
       className="relative  w-full max-w-xs  overflow-hidden rounded-lg bg-white shadow-md"
       key={index}
     >
-      <Link to={`/productsDetails/${item.id}`}>
+      <Link to={`/productsDetails/${item.id}${item.title}`}>
         <img
           className="h-60 w-full rounded-t-lg object-cover"
           src={item.img}

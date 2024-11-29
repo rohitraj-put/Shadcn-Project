@@ -566,7 +566,7 @@ export default function Navbar() {
                       </SheetTrigger>
                       <SheetContent>
                         <SheetHeader>
-                          <SheetTitle>Edit profile</SheetTitle>
+                          <SheetTitle>Cart Items</SheetTitle>
                           <SheetDescription>
                             Make changes to your profile here. Click save when
                             you're done.

@@ -312,7 +312,7 @@ export default function Category() {
                 ))}
               </form>
               {/* Product Contant */}
-              <div className=" flex w-[82%] gap-2 justify-start flex-wrap">
+              <div className=" flex w-[82%] gap-8 justify-start flex-wrap">
                 {categoryData.map((item, index) => (
                   <Product key={index} item={item} />
                 ))}

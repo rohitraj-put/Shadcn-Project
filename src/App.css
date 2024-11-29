@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
-.bg_offer {
-  width: 96%;
-  height: 80vh;
-  margin: 5vh auto;
-  background: url("https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/headphone-01.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+/* For Chrome, Edge, and Safari */
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.scrollbar-hidden {
+  scrollbar-width: none;
+}
+
+/* Internet Explorer and legacy Edge */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
 }

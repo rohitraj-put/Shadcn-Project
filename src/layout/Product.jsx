@@ -8,7 +8,7 @@ export default function Product({ item, index }) {
     >
       <Link to={`/productsDetails/${item.id}${item.title}`}>
         <img
-          className="h-60 w-full rounded-t-lg object-cover"
+          className="h-60 w-full rounded-t-lg object-fill"
           src={item.img}
           alt="product image"
         />

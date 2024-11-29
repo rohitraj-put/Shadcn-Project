@@ -53,7 +53,7 @@ function ProductFullDetails() {
         </div>
 
         {/* Product Details */}
-        <div className="w-full md:w-1/2 px-4">
+        <div className="w-full md:w-1/2 px-4 overflow-y-auto h-[calc(100vh-8rem)] scrollbar">
           <h2 className="text-3xl font-bold mb-2">
             Premium {filteredData.title}
           </h2>

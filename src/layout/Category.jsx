@@ -312,7 +312,7 @@ export default function Category() {
                 ))}
               </form>
               {/* Product Content */}
-              <div className="flex w-[82%] gap-6 justify-start flex-wrap overflow-y-auto h-[calc(100vh-8rem)]">
+              <div className="flex w-[82%] gap-8 justify-start flex-wrap overflow-y-auto h-[calc(100vh-8rem)] scrollbar">
                 {categoryData.map((item, index) => (
                   <Product key={index} item={item} />
                 ))}

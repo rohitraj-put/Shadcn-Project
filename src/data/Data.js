@@ -10,7 +10,7 @@ const Data = [
   },
   {
     img: "https://www.thegoodroad.in/cdn/shop/files/S_P_6257web.jpg?v=1711974523&width=533",
-    title: "Cool T-Shirt",
+    title: "Cool T-Shirt black",
     oldPrice: 29,
     newPrice: 19,
     productName: "Graphic Tee",

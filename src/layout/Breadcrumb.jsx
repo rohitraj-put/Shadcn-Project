@@ -9,14 +9,11 @@ const Breadcrumbs = () => {
   const pathnames = location.pathname.split("/").filter((x) => x);
   console.log(pathnames);
 
-  if (location.pathname === "/") {
+  if (location.pathname === "/signin" || "/") {
     return null;
   }
   return (
-    <nav
-      aria-label="Breadcrumb"
-      className="bg-gray-100 p-4 rounded-md shadow-md"
-    >
+    <nav aria-label="Breadcrumb" className="p-4 ">
       <ol className="flex items-center space-x-2 text-sm text-gray-600">
         <li>
           <Link

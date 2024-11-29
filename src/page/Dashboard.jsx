@@ -30,6 +30,7 @@ const items = [
   ]),
   getItem("Files", "9", <FileOutlined />),
 ];
+
 const Dashboard = () => {
   const [collapsed, setCollapsed] = useState(false);
   const {
@@ -72,7 +73,7 @@ const Dashboard = () => {
             }}
           >
             <Breadcrumb.Item>User</Breadcrumb.Item>
-            <Breadcrumb.Item>Bill</Breadcrumb.Item>
+            <Breadcrumb.Item>Bill </Breadcrumb.Item>
           </Breadcrumb>
           <div
             style={{

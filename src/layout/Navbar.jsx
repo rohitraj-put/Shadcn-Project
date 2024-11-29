@@ -54,7 +54,7 @@ const navigation = {
           name: "New Arrivals",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-01.jpg",
+            "https://www.thegoodroad.in/cdn/shop/files/Agate_platter_3.jpg?v=1702213006&width=940",
           imageAlt:
             "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
@@ -62,7 +62,7 @@ const navigation = {
           name: "Basic Tees",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-02.jpg",
+            "https://www.thegoodroad.in/cdn/shop/files/IMG_3190.jpg?v=1702213863&width=940",
           imageAlt:
             "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },
@@ -72,15 +72,15 @@ const navigation = {
           id: "clothing",
           name: "Clothing",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Dresses", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Denim", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
+            { name: "Tops", href: "/top" },
+            { name: "Dresses", href: "/dresses" },
+            { name: "Pants", href: "pants" },
+            { name: "Denim", href: "/denim" },
+            { name: "Sweaters", href: "/sweaters" },
+            { name: "T-Shirts", href: "/t-shirts" },
+            { name: "Jackets", href: "/jeckets" },
+            { name: "Activewear", href: "/activewear" },
+            { name: "Browse All", href: "/" },
           ],
         },
         {
@@ -116,7 +116,7 @@ const navigation = {
           name: "New Arrivals",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/plus/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
+            "https://www.thegoodroad.in/cdn/shop/files/S_P_4473web.jpg?v=1709708898&width=533",
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
@@ -124,7 +124,7 @@ const navigation = {
           name: "Artwork Tees",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/plus/img/ecommerce-images/category-page-02-image-card-06.jpg",
+            "https://www.thegoodroad.in/cdn/shop/files/S_P_2283web.jpg?v=1712047064&width=533",
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
         },
@@ -473,14 +473,7 @@ export default function Navbar() {
                       href="/signin"
                       className="text-sm font-medium text-gray-700 hover:text-gray-800"
                     >
-                      Sign in
-                    </a>
-                    <span aria-hidden="true" className="h-6 w-px bg-gray-200" />
-                    <a
-                      href="#"
-                      className="text-sm font-medium text-gray-700 hover:text-gray-800"
-                    >
-                      Create account
+                      Sign in / Ragister
                     </a>
                   </div>
 

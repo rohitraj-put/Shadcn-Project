@@ -7,14 +7,14 @@ import Header from "@/layout/Header";
 import { Trusted } from "@/layout/Trusted";
 import Image from "@/layout/Image";
 import Offers from "@/layout/Offers";
+import ProductDetails from "@/layout/ProductDetails";
 
 function Home() {
   return (
     <>
       <Carousel />
       <Trusted />
-      {/* <Slider /> */}
-      <Product />
+      <ProductDetails />
       <ProductSlider />
       <Image />
       <Offers />

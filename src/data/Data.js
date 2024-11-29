@@ -5,6 +5,7 @@ const Data = [
     oldPrice: 79,
     newPrice: 49,
     productName: "Comfort Sneakers",
+    id: 1,
     category: "Footwear",
   },
   {
@@ -13,6 +14,7 @@ const Data = [
     oldPrice: 29,
     newPrice: 19,
     productName: "Graphic Tee",
+    id: 2,
     category: "Apparel",
   },
   {
@@ -21,6 +23,7 @@ const Data = [
     oldPrice: 199,
     newPrice: 149,
     productName: "Luxury Watch",
+    id: 3,
     category: "Accessories",
   },
   {
@@ -29,6 +32,7 @@ const Data = [
     oldPrice: 89,
     newPrice: 59,
     productName: "Hiking Backpack",
+    id: 4,
     category: "Bags",
   },
   {
@@ -37,6 +41,7 @@ const Data = [
     oldPrice: 1299,
     newPrice: 999,
     productName: "Gaming Laptop",
+    id: 5,
     category: "Electronics",
   },
   {
@@ -45,6 +50,7 @@ const Data = [
     oldPrice: 299,
     newPrice: 199,
     productName: "Wireless Headphones",
+    id: 6,
     category: "Electronics",
   },
   {
@@ -53,6 +59,7 @@ const Data = [
     oldPrice: 999,
     newPrice: 799,
     productName: "Flagship Phone",
+    id: 7,
     category: "Electronics",
   },
   {
@@ -61,24 +68,9 @@ const Data = [
     oldPrice: 149,
     newPrice: 99,
     productName: "Warm Jacket",
+    id: 8,
     category: "Apparel",
   },
-  //   {
-  //     img: "https://via.placeholder.com/150?text=Shoes",
-  //     title: "Running Shoes",
-  //     oldPrice: 59,
-  //     newPrice: 39,
-  //     productName: "Sporty Shoes",
-  //     category: "Footwear",
-  //   },
-  //   {
-  //     img: "https://via.placeholder.com/150?text=Watch",
-  //     title: "Digital Watch",
-  //     oldPrice: 79,
-  //     newPrice: 59,
-  //     productName: "Fitness Tracker",
-  //     category: "Accessories",
-  //   },
 ];
 
 export default Data;

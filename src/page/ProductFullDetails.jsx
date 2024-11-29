@@ -14,7 +14,7 @@ function ProductFullDetails() {
   );
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container-fluid mx-auto px-4 py-8">
       <div className="flex flex-wrap -mx-4">
         {/* Product Images */}
         <div className="w-full md:w-1/2 px-4 mb-8">
@@ -213,7 +213,7 @@ function ProductFullDetails() {
         <h3 className="text-2xl text-start font-bold tracking-tight text-rose-500 capitalize sm:text-4xl">
           Similar Products
         </h3>
-        <div className="flex justify-start gap-4 my-8">
+        <div className="flex justify-start flex-wrap gap-2 my-8">
           {sameCategoryProducts.length === 0 ? (
             <p className="text-center">No Similar Item available!</p>
           ) : (
